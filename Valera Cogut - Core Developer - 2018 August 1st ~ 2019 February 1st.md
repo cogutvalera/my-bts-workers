@@ -63,16 +63,16 @@ One-time cost reimbursement:
 This is a full time contract, 8 hours per day, 5 days a week, 160 hours per month of development.
 
 Monthly pay:
-* $12,000 per month, as 160 hours per month * $75 per hour
+* $20,000 per month, as 160 hours per month * $125 per hour (https://www.bitshares.foundation/workers/2018-03-bitshares-core HOURLY RATE USD table)
 
 USD payment will be in bitUSD with method developed by @xeroc
 ([link](https://github.com/xeroc/worker-proposals/blob/master/2017-02.md#worker)):
 
 * 4.38291 BTS/bitUSD = settlement price of bitUSD at the moment of writting (2018-07-19)
 * 2.5 = multiplier to cover market fluctuations and borrow at 2.5x collateral if needed
-* 12000 usd/month * 4.38291 bts/usd * 2.5 = 131,487.3  BTS/month
-* 131,487.3 / 30 = 4,382.91 BTS/day
+* 20000 usd/month * 4.38291 bts/usd * 2.5 = 219,145.5  BTS/month
+* 219,145.5 / 30 = 7,304.85 BTS/day
 
-Note: I will be receiving 12,000 bitUSD per month, but not really 4,382.91 BTS per day.
+Note: I will be receiving 20,000 bitUSD per month, but not really 7,304.85 BTS per day.
 The multi-sig scheme in worker account `valera-worker` will only send the correct exact
 amount of funds to me. Rest of BTS will be burned back to the chain at a proper time.
